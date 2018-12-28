@@ -7,7 +7,8 @@
   #### 1-zhangsan
   #### ...
   
-### 3、参考Answers文件夹命名，week1、week2、week3... 进行提交作业，不要提交txt文本文件！！！
+### 3、参考0-Answers文件夹命名，week1、week2、week3... 进行提交作业，请不要提交txt文本文件！！！
 
+### 4、参考week0-demo中的格式提交作业
 
 ### 4、作业答案定期更新在Answers目录下
