@@ -1,27 +1,27 @@
-ÃüÁîĞĞÊ¹ÓÃgitÌá½»×÷Òµ,ÓÃÃüÁî²Ù×÷£¬ÒªÌí¼ÓsshµÄ¹«Ô¿µ½githubÀï¡£
+ï»¿å‘½ä»¤è¡Œä½¿ç”¨gitæäº¤ä½œä¸š,ç”¨å‘½ä»¤æ“ä½œï¼Œè¦æ·»åŠ sshçš„å…¬é’¥åˆ°githubé‡Œã€‚
 
-1.ÔÚlinuxÏµÍ³ÖĞÉú³Ékey 
+1.åœ¨linuxç³»ç»Ÿä¸­ç”Ÿæˆkey 
 ssh-keygen -t rsa    
 cat ~/.ssh/id_rsa.pub  
 
-2. ½«keyÌí¼Óµ½githubÖĞ
-1) µÇÂ¼github.com,
-2) µã»÷ÓÒÉÏ·½µÄAccounting settingsÍ¼±ê£¬±à¼­×Ô¼ºÕËºÅµÄÅäÖÃĞÅÏ¢£¬
-3) Ñ¡Ôñ¡°SSH and GPG keys"£¬ºóÃæµã»÷¡°New ssh key¡±
-4) ÊäÈëtitle,½«~/.ssh/id_rsa.pub ÖĞµÄÄÚÈİ¿½±´µÄkeyµÄÎÄ±¾¿òÖĞ£¬µã"Add SSH key"
+2. å°†keyæ·»åŠ åˆ°githubä¸­
+1) ç™»å½•github.com,
+2) ç‚¹å‡»å³ä¸Šæ–¹çš„Accounting settingså›¾æ ‡ï¼Œç¼–è¾‘è‡ªå·±è´¦å·çš„é…ç½®ä¿¡æ¯ï¼Œ
+3) é€‰æ‹©â€œSSH and GPG keys"ï¼Œåé¢ç‚¹å‡»â€œNew ssh keyâ€
+4) è¾“å…¥title,å°†~/.ssh/id_rsa.pub ä¸­çš„å†…å®¹æ‹·è´çš„keyçš„æ–‡æœ¬æ¡†ä¸­ï¼Œç‚¹"Add SSH key"
 
-3.°²×°git
+3.å®‰è£…git
 yum install git -y
 
-4.¿ËÂ¡githubÉÏµÄ²Ö¿âµ½±¾µØ
+4.å…‹éš†githubä¸Šçš„ä»“åº“åˆ°æœ¬åœ°
 mkdir /homework
 cd /homework
 git clone https://github.com/magedu-pythons/python-19.git
 
-¸üĞÂ±¾µØ´úÂë git pull
-²é¿´´úÂë×´Ì¬ git status
+æ›´æ–°æœ¬åœ°ä»£ç  git pull
+æŸ¥çœ‹ä»£ç çŠ¶æ€ git status
 
-5.Ìá½»´úÂë
+5.æäº¤ä»£ç 
 cd /homework
 git add .
 git commit -m "first commit" 
