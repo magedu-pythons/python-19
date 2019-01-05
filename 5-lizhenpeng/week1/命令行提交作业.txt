@@ -1,0 +1,28 @@
+命令行使用git提交作业,用命令操作，要添加ssh的公钥到github里。
+
+1.在linux系统中生成key 
+ssh-keygen -t rsa    
+cat ~/.ssh/id_rsa.pub  
+
+2. 将key添加到github中
+1) 登录github.com,
+2) 点击右上方的Accounting settings图标，编辑自己账号的配置信息，
+3) 选择“SSH and GPG keys"，后面点击“New ssh key”
+4) 输入title,将~/.ssh/id_rsa.pub 中的内容拷贝的key的文本框中，点"Add SSH key"
+
+3.安装git
+yum install git -y
+
+4.克隆github上的仓库到本地
+mkdir /homework
+cd /homework
+git clone https://github.com/magedu-pythons/python-19.git
+
+更新本地代码 git pull
+查看代码状态 git status
+
+5.提交代码
+cd /homework
+git add .
+git commit -m "first commit" 
+git push -u origin master
