@@ -5,5 +5,5 @@ import random
 for i in range(200):
     a = ''
     for y in range(10):
-        a += random.choice('abcdefghijklmnopqrstABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789')
+        a += random.choice('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789')
     print(a)
