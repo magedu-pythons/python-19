@@ -1,3 +1,6 @@
+# 搭建好pytenv环境
+
+
 pyenv: Python多版本管理工具，它实现以下功能：
 1.管理Python解释器
 2.管理Python版本

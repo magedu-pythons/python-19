@@ -1,3 +1,5 @@
+# 理解local、global、shell3种方式区别
+
 1.global变量设置后，会在全局范围内有效。
   设置方式：
   $ pyenv global 3.6.5
