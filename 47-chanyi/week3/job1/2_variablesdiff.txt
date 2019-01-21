@@ -1,0 +1,13 @@
+# 理解local、global、shell3种方式区别
+
+1.global变量设置后，会在全局范围内有效。
+  设置方式：
+  $ pyenv global 3.6.5
+
+2.shell变量设置后，仅影响当前会话。不过会话丢失后，配置也会失效。
+  设置方式：
+  $ pyenv shell 3.6.5
+
+3.local变量设置后，会将python环境和当前目录及子目录绑定。
+  设置方式：
+  $ pyenv local 3.6.5
