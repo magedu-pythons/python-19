@@ -1,0 +1,25 @@
+# 搭建好pytenv环境
+
+
+pyenv: Python多版本管理工具，它实现以下功能：
+1.管理Python解释器
+2.管理Python版本
+3.管理Python的虚拟环境
+
+安装步骤：
+1.安装git
+  # yum -y install git
+2.安装Python，并编译依赖：
+  # yum -y install gcc make patch gdbm-devel openssl-devel sqlite-devel readline-devel zlib-devel bzip2-devel
+3.创建python用户：
+  # useradd python
+4.使用python用户登录，并安装pyenv：
+  # su - python
+  $ curl -L https://raw.githubusercontent.com/pyenv/pyenv-installer/master/bin/pyenv-installer | bash
+5.在python用户的.bash_profile追加：
+  $ vim .bash_profile
+    export PATH="/home/python/.pyenv/bin:$PATH"
+    eval "$(pyenv init -)"
+    eval "$(pyenv virtualenv-init -)"
+6.安装Python：
+  $ pyenv install 3.6.5 -v 

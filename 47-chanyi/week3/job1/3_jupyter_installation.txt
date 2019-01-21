@@ -1,0 +1,10 @@
+# 安装部署完成jupyter并运行
+
+1.通过pip安装jupyter：
+  $ pip install jupyter
+
+2.设置密码：
+  $ jupyter notebook password userName
+
+3.启动：
+  $ jupyter notebook
