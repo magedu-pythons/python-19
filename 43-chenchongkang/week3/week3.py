@@ -64,8 +64,6 @@ while i<200:
     else:
         print('重复')
         i-=1
-    
-    
     ActCode=''
     
 #print(list)
