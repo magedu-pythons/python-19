@@ -1,4 +1,4 @@
-#1, 给定任意链表, 查找出x元素是否在列表里面, 存在返回1, 不存在返回0
+#1, 给定任意列表, 查找出x元素是否在列表里面, 存在返回1, 不存在返回0
 def find_from( lst:list, target:int ) -> int:
     for i in lst:
         if i == target:
