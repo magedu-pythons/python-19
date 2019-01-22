@@ -8,7 +8,7 @@ for y in range(1, 10):
 
 
 # 2、 打印菱形
-# 1、实际的以*号推起来，最大只能是奇数个*
+# 2.1、实际的以*号推起来，最大只能是奇数个*
 def abc(num): 
     middle_num = num // 2 
     for i in range(num): 
@@ -20,7 +20,7 @@ def abc(num):
         print(' ' * spa_n + '*' * tag_n + ' ' * spa_n)
 
 
-# 2、在*号之间加一个空格，最大的数可以是任何数， 只是行数要加上所填充的空格数。
+# 2.2、在*号之间加一个空格，最大的数可以是任何数， 只是行数要加上所填充的空格数。
 def abc_c(num,space=1): 
     num = num + ((num - 1)*space) 
     middle_num = num // 2 
@@ -41,6 +41,48 @@ def abc_c(num,space=1):
 abc(7)
 abc_c(6)
 abc_c(6,3)
+
+# 2.3、以对称方式打印菱形,i等于一侧的空格数
+n = 9
+e = -n//2 + 1
+for i in range(e,n+e):
+    if i <= 0:
+        tag_num = n + i * 2
+    else:
+        tag_num = n - i * 2
+    spa_num = (n - tag_num) // 2
+    print(spa_num * ' ' + tag_num * '*' + spa_num * ' ')
+
+# 2.4、abs绝对值菱形
+n = 9
+e = -n//2 + 1
+for i in range(e,n+e):
+    tag_num = n - abs(i) * 2
+    spa_num = abs(i)
+    print(spa_num * ' ' + tag_num * '*' + spa_num * ' ')
+
+
+# 3、上下宽，中间窄的菱形.
+# 3.1
+n = 9
+e = -n//2 + 1
+for i in range(e,n+e):
+    tag_num = abs(i) * 2 + 1
+    spa_num = (n - tag_num) // 2
+    print(spa_num * ' ' + tag_num * '*' + spa_num * ' ')
+
+# 3.2 
+n = 9
+e = -n//2 + 1
+for i in range(e,n+e):
+    if i <= 0:
+        spa_num = n + (i * 2 - 1)
+    else:
+        spa_num = n - (i * 2 + 1)
+    tag_num = n - spa_num
+    spa_num = spa_num // 2
+    print(spa_num * ' ' + tag_num * '*' + spa_num * ' ')
+
 
 
 
