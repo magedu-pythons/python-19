@@ -18,7 +18,7 @@ for i in range(11):
     if i ==0 or i ==1:#第1,2项 都为1
         list.append(1)
     else:
-        list.append(lis[i-2]+lis[i-1])#从第3项开始每项值为前两项值之和
+        list.append(list[i-2]+list[i-1])#从第3项开始每项值为前两项值之和
 print(list)
 
 #使用 Python 实现随机生成 200 无重复激活码（或者优惠券），字符串长度大于5以上
