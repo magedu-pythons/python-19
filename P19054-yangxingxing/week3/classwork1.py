@@ -53,19 +53,30 @@ for i in range(e,n+e):
     spa_num = (n - tag_num) // 2
     print(spa_num * ' ' + tag_num * '*' + spa_num * ' ')
 
+#
+# 2.3.1,  优化
+n = 9
+e = -(n//2)
+for i in range(e,n+e):
+    if i <= 0: i = -i
+    tag_num = n - i * 2
+    spa_num = i
+    print(spa_num * ' ' + tag_num * '*')
+
+
 # 2.4、abs绝对值菱形
 n = 9
-e = -n//2 + 1
+e = -(n//2)
 for i in range(e,n+e):
     tag_num = n - abs(i) * 2
     spa_num = abs(i)
     print(spa_num * ' ' + tag_num * '*' + spa_num * ' ')
 
 
-# 3、上下宽，中间窄的菱形.
+# 3、上下宽，中间窄的菱形. 对角三角形
 # 3.1
 n = 9
-e = -n//2 + 1
+e = -(n//2)
 for i in range(e,n+e):
     tag_num = abs(i) * 2 + 1
     spa_num = (n - tag_num) // 2
@@ -73,7 +84,7 @@ for i in range(e,n+e):
 
 # 3.2 
 n = 9
-e = -n//2 + 1
+e = -(n//2)
 for i in range(e,n+e):
     if i <= 0:
         spa_num = n + (i * 2 - 1)
@@ -82,6 +93,13 @@ for i in range(e,n+e):
     tag_num = n - spa_num
     spa_num = spa_num // 2
     print(spa_num * ' ' + tag_num * '*' + spa_num * ' ')
+
+# 3.3,  这里e不用负数的原因是： e-line_num 会出现负数， 而负数 乘 ' ' 为 ''。
+n = 9
+e = n // 2
+for i in range(-e, n-e):
+    line_num = -i if i < 0 else i
+    print(' ' * (e-line_num) + '*' * (line_num * 2 + 1))
 
 
 
