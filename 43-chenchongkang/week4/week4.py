@@ -24,6 +24,12 @@ print('=========================')
 
 
 # 2、任一个英文的纯文本文件，统计其中的单词出现的个数。
-words=sum([len(line.split()) for line in open("C:\\Users\\CCKGOD\\Documents\\GitHub\\python-19\\43-chenchongkang\\week4\\test.txt")])
-print(words)
+lst=[]
+for line in open("C:\\Users\\CCKGOD\\Documents\\GitHub\\python-19\\43-chenchongkang\\week4\\test.txt"):
+    l=len(line.split())
+    lst.append(l)
+print(lst)
+word=sum(lst)
+print(word)
+
 
