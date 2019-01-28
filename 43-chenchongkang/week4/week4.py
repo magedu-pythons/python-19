@@ -29,7 +29,7 @@ for line in open("C:\\Users\\CCKGOD\\Documents\\GitHub\\python-19\\43-chenchongk
     l=len(line.split())
     lst.append(l)
 print(lst)
-word=sum(lst)
-print(word)
+words=sum(lst)
+print(words)
 
 
