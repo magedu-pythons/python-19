@@ -15,8 +15,7 @@ myLine = 21
 myList = [[1], [1,1]]
 for line in range(2, myLine):
     newList = [1] * (line + 1)
-    indexTop = line//2
-    for index in range(1, indexTop+1):
+    for index in range(1, line//2+1):
         newList[index] = myList[line-1][index-1] + myList[line-1][index]
         newList[-(index+1)] = newList[index]
     myList.append(newList)
