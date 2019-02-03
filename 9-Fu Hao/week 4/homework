@@ -1,0 +1,14 @@
+#1.检测输入元素是否在列表内
+
+
+a = input('input a element:')
+lst = [1,2,3,4,5,6,7,8,9,0]
+if a in str(lst):
+	print(1)
+else:
+	print(0)
+	
+	
+
+#统计文本中单词出现的次数
+

@@ -1,0 +1,40 @@
+{\rtf1\ansi\ansicpg936\cocoartf1671\cocoasubrtf200
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset134 PingFangSC-Regular;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 #
+\f1 \'d7\'f7\'d2\'b5\'b5\'da\'c8\'fd\'cf\'ee\
+\
+\
+#\'ca\'b9\'d3\'c3 Python \'ca\'b5\'cf\'d6\'cb\'e6\'bb\'fa\'c9\'fa\'b3\'c9 200 \'ce\'de\'d6\'d8\'b8\'b4\'bc\'a4\'bb\'ee\'c2\'eb\'a3\'a8\'bb\'f2\'d5\'df\'d3\'c5\'bb\'dd\'c8\'af\'a3\'a9\'a3\'ac\'d7\'d6\'b7\'fb\'b4\'ae\'b3\'a4\'b6\'c8\'b4\'f3\'d3\'da5\'d2\'d4\'c9\'cf\
+import random\
+num = int(input('Please enter the activation code length : '))\
+captial = list()\
+lowercase= list()\
+digit = list()\
+flag = False\
+captial = ['Q','W','E','R','T','Y','U','I','O','P','A','S','D','F','G','H','J','K','L','Z','X','C','V','B','N','M']   #print(captial)\
+lowercase = ['q','w','e','r','t','y','u','i','o','p','a','s','d','f','g','h','j','k','l','z','x','c','v','b','n','m'] #print(lowercase)\
+digit = ['0','1','2','3','4','5','6','7','8','9']                                                                     #print(digit)              \
+s = captial + lowercase + digit                     #\'c9\'fa\'b3\'f6\'d7\'d6\'b7\'fb\'bf\'e2\
+print("You verification code is : ")\
+for i in range(200):                                     #continue\'b5\'bc\'d6\'c2code\'b2\'bb\'d7\'e3num\'ce\'bb\'a3\'ac\'b4\'fd\'bd\'e2\'be\'f6\'a3\'bf\'a3\'bf\'a3\'bf\
+    code = ''\
+    temp = list(range(num))\
+    for j in range(num):    \
+        temp[j] = random.choice(s)\
+        for k in range(j):                                  #\'bd\'e2\'be\'f6\'d6\'d8\'b8\'b4\
+            if temp[j] == temp[k]:\
+                flag = True\
+            else:\
+                flag = False\
+        if flag:\
+            code = ''\
+            temp = list(range(num))\
+            continue\
+        else:\
+            code += temp[j]\
+    print(code)}
