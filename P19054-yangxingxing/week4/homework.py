@@ -3,7 +3,7 @@
 
 
 # 1、查看x元素是否存在于列表
-some = [1,3,45,6,7,8,'dkfjdklfd']
+some = [1, 3, 45, 6, 7, 8, 'dkfjdklfd']
 if 45 in some:
     print(1)
 else:
