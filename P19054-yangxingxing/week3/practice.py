@@ -27,9 +27,9 @@ def jj(num):
         print('%s*%s=%-4s' % (i,num,i*num), end='')
     print()
     if num < 9:
-        abc(num+1)
+        jj(num+1)
 
-abc(1)
+jj(1)
 
 # 2.2
 for y in range(1,10):
