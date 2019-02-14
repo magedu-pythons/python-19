@@ -11,3 +11,13 @@ wordcount = Counter(wordlist)
 result = [(k, v) for k, v in wordcount.items()]
 result.sort(key=lambda x: x[1], reverse=True)
 pprint.pprint(result)
+
+
+
+
+"""
+(0 + 0)
+
+    封装成函数形式
+"""
+

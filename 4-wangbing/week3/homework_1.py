@@ -19,3 +19,12 @@ while True:
     if c >100:
         break
 print(L)
+
+
+
+"""
+(0 + 0)
+
+    参考答案的2种实现
+"""
+

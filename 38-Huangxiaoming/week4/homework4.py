@@ -30,3 +30,12 @@ def count():
 
     print(cou_list)
 count()
+
+
+
+"""
+(0 + 0)
+
+    第二题参考答案实现
+"""
+

@@ -42,3 +42,12 @@ for i in range(200):
         str += random.choice('abcdefghijklmnopqrstuvwxyz')
     print(str)
 
+
+
+
+"""
+(0 + 0)
+
+    没有import random 模块，作业做完了，自己运行检测下代码
+"""
+

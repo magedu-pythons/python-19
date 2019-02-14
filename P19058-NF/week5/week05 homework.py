@@ -28,3 +28,11 @@ max_s = sorted(s,reverse=True)
 print(max_s)
 print(max_s[0],max_s[1],max_s[2])
 
+
+
+
+"""
+(0 + 0)
+
+    使用函数封装
+"""

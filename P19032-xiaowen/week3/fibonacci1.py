@@ -14,3 +14,11 @@ for i in range(2,n):
     a=num
     print(num)
 
+
+
+
+"""
+(0 + 0)
+
+    作业写到一个地方，参考week-demo
+"""

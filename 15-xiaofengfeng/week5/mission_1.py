@@ -7,3 +7,14 @@ while True :
         print("您输入的{}是回文数".format(number))
     else:
         print("您输入的{}不是回文数".format(number))
+
+
+
+
+
+"""
+(0 + 0)
+
+    作业写到一个文件里面
+"""
+

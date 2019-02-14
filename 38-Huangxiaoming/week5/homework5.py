@@ -32,3 +32,12 @@ def choosesort(num_lst): #TODO 有可能存在第2到4名都是相同的数值
         newlst.append(num_lst[maxindex])
     return newlst
 print(choosesort(num_lst))
+
+
+
+"""
+(0 + 0)
+
+    第二题参考答案的更简易实现
+"""
+

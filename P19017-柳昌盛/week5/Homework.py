@@ -19,3 +19,11 @@ for i in range(3):
     max_num.append(a)
     random_list.remove(a)
 print(max_num)
+
+
+
+"""
+(0 + 0)
+
+    good
+"""

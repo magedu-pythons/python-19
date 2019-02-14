@@ -18,3 +18,14 @@ while True:
         break
 for i in random_lst:
     print(i)
+
+
+
+
+
+"""
+(0 + 0)
+
+
+"""
+

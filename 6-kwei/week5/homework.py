@@ -45,3 +45,12 @@ for i in range(20):
 print('随机生成20个数:{}'.format(lst))
 print('其中最大的三个数为:{}'.format(three))
 
+
+
+
+"""
+(0 + 0)
+
+    good!
+"""
+

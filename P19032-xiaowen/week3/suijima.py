@@ -25,3 +25,11 @@ for b in range(200):
         string = string + c
     ma[b] = string  #索引替换
 print(ma)
+
+
+
+"""
+(0 + 0)
+
+    没有考虑重复生成的优惠码
+"""

@@ -13,3 +13,12 @@ with open("sample.txt") as f1:
         sum += len(lst)
 
 print(sum)
+
+
+
+
+"""
+(0 + 0)
+
+    参考答案实现
+"""

@@ -39,3 +39,11 @@ while 1:
     if len(sett) == 100:
         break
 print(sett)
+
+
+
+"""
+(0 + 0)
+
+    good
+"""

@@ -15,3 +15,11 @@ else:
 content = 'Hello World,This is a dog'
 word = content.replace(',', ' ')
 word_num = len(word.split())
+
+
+
+"""
+(0 + 0)
+
+    参考答案实现
+"""

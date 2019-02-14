@@ -30,3 +30,11 @@ def fib(num):
 
 for a in fib(100):
     print(a)
+
+
+"""
+(0 + 0)
+
+    参考答案的方法2
+"""
+

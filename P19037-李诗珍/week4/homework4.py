@@ -28,3 +28,11 @@ print(d)                                                                    #pri
 
 #for i in d:                                                                #print dict  打印字典方法二
 #    print('{} frequency of occurrence is {}'.format(i,d[i]))
+
+
+
+"""
+(0 + 0)
+
+    题二参考答案实现
+"""

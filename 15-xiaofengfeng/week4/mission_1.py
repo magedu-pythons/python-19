@@ -15,3 +15,12 @@ def listindex(list,x):
 a = listindex(list,"x")
 print(a)
 
+
+
+
+"""
+(0 + 0)
+
+    good
+"""
+
