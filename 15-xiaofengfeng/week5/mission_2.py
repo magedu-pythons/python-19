@@ -9,3 +9,12 @@ choice_number = random.sample(number_list,numbers_count)
 print(choice_number)
 choice_number.sort(reverse=True)
 print("最大数:{}，第二位:{},第三位:{}".format(choice_number[0],choice_number[1],choice_number[2]))
+
+
+
+"""
+(0 + 0)
+    
+    
+"""
+

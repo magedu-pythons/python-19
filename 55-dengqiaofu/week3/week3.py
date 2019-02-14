@@ -26,3 +26,11 @@ for x in range(200):
     for y in range(6):
         z += random.choice('abcdefghijklmnrstopquvwxyz1234567890')
     print(z)
+
+
+
+"""
+(0 + 0)
+
+    参考答案实现
+"""

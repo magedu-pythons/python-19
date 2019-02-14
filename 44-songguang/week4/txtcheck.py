@@ -7,3 +7,13 @@ while True :
         f2=f2+f3 #每个列表合并到一起
         f3=[]
 print(len(f2))
+
+
+
+
+"""
+(0 + 0)
+
+        作业按照week-demo方式命名
+"""
+

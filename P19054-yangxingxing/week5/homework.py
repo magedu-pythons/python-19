@@ -20,3 +20,12 @@ for y in range(3):
             num_list[n], num_list[n+1] = num_list[n+1], num_list[n]
 
 print(num_list[-3:])
+
+
+
+"""
+(0 + 0)
+
+    题1 使用更通用的实现，比如6位数 或者 7位数等
+    题2 参考答案的简易实现
+"""

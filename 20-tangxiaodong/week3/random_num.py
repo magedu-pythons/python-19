@@ -7,3 +7,11 @@ for i in range(200):
     for y in range(10):
         a += random.choice('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789')
     print(a)
+
+
+"""
+(0 + 0)
+
+    没有解决重复优惠码的问题，请参考答案
+"""
+

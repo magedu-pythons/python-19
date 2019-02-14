@@ -1,5 +1,5 @@
-#1¡¢¸ø³öÈÎÒâÒ»¸öÁĞ±í£¬Çë²éÕÒ³öxÔªËØÊÇ·ñÔÚÁĞ±íÀïÃæ£¬Èç¹û´æÔÚ·µ»Ø1£¬²»´æÔÚ·µ»Ø0
-#·½·¨1
+#1ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Ğ±ï¿½ï¿½ï¿½ï¿½ï¿½Ò³ï¿½xÔªï¿½ï¿½ï¿½Ç·ï¿½ï¿½ï¿½ï¿½Ğ±ï¿½ï¿½ï¿½ï¿½æ£¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú·ï¿½ï¿½ï¿½1ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú·ï¿½ï¿½ï¿½0
+#ï¿½ï¿½ï¿½ï¿½1
 lst=list(input(">>>"))
 flag=True
 while flag:
@@ -8,7 +8,7 @@ while flag:
         flag=False
     print("1") if x in lst else print("0")
 
-#·½·¨2
+#ï¿½ï¿½ï¿½ï¿½2
 lst=list(input(">>>"))
 while True:
     x=input(">>>")
@@ -16,8 +16,8 @@ while True:
         break
     print("1") if x in lst else print("0")
     
-#ÈÎÒ»¸öÓ¢ÎÄµÄ´¿ÎÄ±¾ÎÄ¼ş£¬Í³¼ÆÆäÖĞµÄµ¥´Ê³öÏÖµÄ¸öÊı¡£
-#·½·¨Ò»£º
+#ï¿½ï¿½Ò»ï¿½ï¿½Ó¢ï¿½ÄµÄ´ï¿½ï¿½Ä±ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½Í³ï¿½ï¿½ï¿½ï¿½ï¿½ĞµÄµï¿½ï¿½Ê³ï¿½ï¿½ÖµÄ¸ï¿½ï¿½ï¿½ï¿½ï¿½
+#ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½
 strings="""A graphical interface from the late 1980s, which features a TUI window for a man page. Another text window for a Unix shell is partially visible.
 In computing, a shell is a user interface for access to an operating system's services. In general, operating system shells use either a command-line interface (CLI) or graphical user interface (GUI), depending on a computer's role and particular operation. It is named a shell because it is the outermost layer around the operating system kernel.[1][2]
 CLI shells require the user to be familiar with commands and their calling syntax, and to understand concepts about the shell-specific scripting language (for example bash script). They are also more easily operated via refreshable braille display, and provide certain advantages to screen readers.Graphical shells place a low burden on beginning computer users, and are characterized as being easy to use. Since they also come with certain disadvantages, most GUI-enabled operating systems also provide CLI shells."""
@@ -29,7 +29,7 @@ for i in lst1:
         lst2.append(i)
         print("{} is appear {} times".format(i,lst1.count(i)))
 
-#·½·¨¶ş£º
+#ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 strings="""A graphical interface from the late 1980s, which features a TUI window for a man page. Another text window for a Unix shell is partially visible.
 In computing, a shell is a user interface for access to an operating system's services. In general, operating system shells use either a command-line interface (CLI) or graphical user interface (GUI), depending on a computer's role and particular operation. It is named a shell because it is the outermost layer around the operating system kernel.[1][2]
 CLI shells require the user to be familiar with commands and their calling syntax, and to understand concepts about the shell-specific scripting language (for example bash script). They are also more easily operated via refreshable braille display, and provide certain advantages to screen readers.Graphical shells place a low burden on beginning computer users, and are characterized as being easy to use. Since they also come with certain disadvantages, most GUI-enabled operating systems also provide CLI shells."""
@@ -37,3 +37,12 @@ lst1=list(strings.split())
 set1=set(lst1)
 for i in set1:
     print("{} is appear {} times".format(i,lst1.count(i)))
+
+
+
+"""
+(0 + 0)
+
+    ç¬¬äºŒé¢˜è¯·å‚è€ƒç­”æ¡ˆå®ç°
+"""
+

@@ -3,3 +3,11 @@ s = "esfhkffklrnvsdvc"
 a = set(s) #去重
 for i in a: 
     print("{}: {}".format(i,s.count(i)))
+
+
+
+"""
+(0 + 0)
+
+    
+"""

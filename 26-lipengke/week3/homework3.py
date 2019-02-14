@@ -29,3 +29,12 @@ for i in range(200):
     for y in range(10):
         o += random.choice('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789')
     print(o)
+
+
+
+"""
+(0 + 0)
+
+    第二题参考答案实现
+"""
+

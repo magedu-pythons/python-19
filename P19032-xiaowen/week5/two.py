@@ -10,3 +10,11 @@ for a in range(len(l) - 1):
             l[aa], l[aa+1] = l[aa+1],l[aa]
 _,*_,b,c,d = l
 print(b,c,d)
+
+
+
+"""
+(0 + 0)
+
+    用函数封装
+"""

@@ -27,3 +27,11 @@ import random
 for i in range(0,200):
     print(random.randint(100000,1000000))
 
+
+
+
+"""
+(0 + 0)
+
+    参考答案实现
+"""

@@ -31,3 +31,13 @@ allstr +=string.ascii_uppercase
 # code=[]
 activecode=[''.join([random.choice(allstr) for _ in range(random.randint(5,9))]) for _ in range(200) ]
 print(activecode)
+
+
+
+"""
+(0 + 0)
+    这里的else 是在没有被break的时候执行
+    优惠码会存在重复，请参考答案
+
+"""
+
