@@ -46,7 +46,7 @@ print('=========================')
 import random as rd
 char='AaBbCcDdEe0123456789'
 ActCode=''
-list=[]
+list0=[]
 i=0
 while i<200:
     i+=1
@@ -58,18 +58,16 @@ while i<200:
         else:
             ActCode+=rand
             
-    if ActCode not in list:         #判断激活码是否重复
-        list.append(ActCode)
+    if ActCode not in list0:         #判断激活码是否重复
+        list0.append(ActCode)
         print('第%d个激活码:%s'%(i,ActCode)) 
     else:
         print('重复')
         i-=1
-    
-    
     ActCode=''
     
-#print(list)
-#print(len(list))
+#print(list0)
+#print(len(list0))
 
 
 
