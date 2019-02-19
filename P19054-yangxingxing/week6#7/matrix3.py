@@ -1,3 +1,4 @@
+# 在列表结构中转置矩阵, 修改列表本身。
 line = input('Enter your line:> ').strip()
 list1 = [line.split()]
 sep = len(list1[0])

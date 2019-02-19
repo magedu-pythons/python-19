@@ -1,4 +1,4 @@
-# 1, 第几行的第几个元素。 简单写法
+# 1, 杨辉三角第几行的第几个元素。 简单写法, 一行一行的计算出来。
 import datetime
 line = 1000
 num = 567
@@ -18,13 +18,6 @@ else:
             list1[i][-(y + 1)] = list1[i][y]
 
     list1.append([1] * line)
-    #    if num > line // 2:
-    #        point = (line - num)
-    #    else:
-    #        point = num - 1
-    #    list1[line-1][point] = list1[line-2][point-1] + list1[line-2][point]
-    #    list1[line-1][-(point+1)] = list1[line-1][point]
-
     list1[line - 1][num - 1] = list1[line - 2][num - 2] + list1[line - 2][num - 1]
     end = datetime.datetime.now()
 

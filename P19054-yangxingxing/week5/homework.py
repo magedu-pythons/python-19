@@ -29,3 +29,12 @@ print(num_list[-3:])
     题1 使用更通用的实现，比如6位数 或者 7位数等
     题2 参考答案的简易实现
 """
+
+# 1、 5位数，判断是否是回文数
+num = 1234554321
+num_list = list(str(num))
+midd = len(num_list) // 2
+if num_list[0:midd] == num_list[:-midd-1:-1]:
+    print('{} 是回文数'.format(num))
+else:
+    print('{} 不是回文数'.format(num))
