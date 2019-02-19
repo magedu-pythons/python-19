@@ -3,8 +3,8 @@
 print('1、问题描述：一个5位数，判断它是不是回文数。')
 
 a = int(input('请输入一个五位数：'))
-lst = [i for i in str(a) ]
-if len(lst) ==5:
+lst = [i for i in str(a)]
+if len(lst) == 5:
     if lst[0] == lst[4] and lst[1] == lst[3]:
         print("输入的数字是回文数")
     else:
