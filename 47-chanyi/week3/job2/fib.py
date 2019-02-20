@@ -27,3 +27,11 @@ while True:
         print(val)
     else:
         break
+
+
+
+"""
+(0 + 0)
+
+    作业安装week-demo方式来命名
+"""

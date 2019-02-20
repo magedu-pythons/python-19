@@ -1,25 +1,25 @@
-µÚÒ»Ìâ£ºlocal¡¢global¡¢shell3ÖÖ·½Ê½Çø±ð
-´ð£ºlocal¡¢global¡¢shellÓ°Ïìpython°æ±¾µÄµÄ×÷ÓÃÓò£¬global×÷ÓÃÓò×î´ó£¬Ó°ÏìÈ«¾Ö£»
-localÖ»Ó°ÏìÉèÖÃµÄµ±Ç°¹¤×÷Ä¿Â¼ÒÔ¼°Æä×ÓÄ¿Â¼£»shellÖ»Ó°Ïìµ±Ç°»á»°
+ï¿½ï¿½Ò»ï¿½â£ºlocalï¿½ï¿½globalï¿½ï¿½shell3ï¿½Ö·ï¿½Ê½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½localï¿½ï¿½globalï¿½ï¿½shellÓ°ï¿½ï¿½pythonï¿½æ±¾ï¿½Äµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½globalï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó°ï¿½ï¿½È«ï¿½Ö£ï¿½
+localÖ»Ó°ï¿½ï¿½ï¿½ï¿½ï¿½ÃµÄµï¿½Ç°ï¿½ï¿½ï¿½ï¿½Ä¿Â¼ï¿½Ô¼ï¿½ï¿½ï¿½ï¿½ï¿½Ä¿Â¼ï¿½ï¿½shellÖ»Ó°ï¿½ìµ±Ç°ï¿½á»°
 
 
-µÚ¶þÌâ£º´òÓ¡ì³²¨ÄÇÆõÊýÁÐ
-·½·¨Ò»£º
+ï¿½Ú¶ï¿½ï¿½â£ºï¿½ï¿½Ó¡ì³²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½
 f0 = 0 
 f1 = 1
-n = int(input("ÄãÏëÇó¶àÉÙÏîì³²¨ÄÇÆõÊýÁÐ£º"))
-print("µÚÒ»¶þÏîÊÇ£º",f0£¬f1)
+n = int(input("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ì³²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð£ï¿½"))
+print("ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½Ç£ï¿½",f0ï¿½ï¿½f1)
 for i in range(2,n):
     fn = f0 + f1
     f0 = f1
     f1 = fn
     print(fn)
-·½·¨¶þ£º
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 f0 = 0 
 f1 = 1
 count = 2
-n = int(input("ÄãÏëÇó¶àÉÙÏîì³²¨ÄÇÆõÊýÁÐ£º"))
-print("µÚÒ»¶þÏîÊÇ:",f0,f1)
+n = int(input("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ì³²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð£ï¿½"))
+print("ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½:",f0,f1)
 while True:
     fn = f0 + f1
     count+=1
@@ -30,7 +30,7 @@ while True:
         break
 
 
-µÚÈýÌâ£ºÊ¹ÓÃ Python ÊµÏÖËæ»úÉú³É 200¸öÎÞÖØ¸´¼¤»îÂë£¨»òÕßÓÅ»ÝÈ¯£©£¬×Ö·û´®³¤¶È´óÓÚ5ÒÔÉÏ
+ï¿½ï¿½ï¿½ï¿½ï¿½â£ºÊ¹ï¿½ï¿½ Python Êµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 200ï¿½ï¿½ï¿½ï¿½ï¿½Ø¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ë£¨ï¿½ï¿½ï¿½ï¿½ï¿½Å»ï¿½È¯ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È´ï¿½ï¿½ï¿½5ï¿½ï¿½ï¿½ï¿½
 import random
 count = 0
 for i in range(200):
@@ -41,4 +41,14 @@ for i in range(200):
     count+=1
     print(m)
 print(count)
-#ÕâÀï¿ÉÄÜÓÐ1/36**5ÖØ¸´µÄ¿ÉÄÜÐÔ£¬È¥ÖØµÄ»°£¬Ã»ÓÐÏëµ½ºÃ·½·¨
+#ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½1/36**5ï¿½Ø¸ï¿½ï¿½Ä¿ï¿½ï¿½ï¿½ï¿½Ô£ï¿½È¥ï¿½ØµÄ»ï¿½ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ëµ½ï¿½Ã·ï¿½ï¿½ï¿½
+
+
+
+
+"""
+(0 + 0)
+
+    æœ‰è¯­æ³•é”™è¯¯ï¼Œè¯·ä½¿ç”¨pycharmå†™ä»£ç 
+"""
+

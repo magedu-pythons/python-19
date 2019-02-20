@@ -34,3 +34,13 @@ for i in range (200):
 		str += random.choice('abcdefghijklmnopqrstuvwxyz')
 	print(str)
 #没有解决无重复的问题
+
+
+
+
+"""
+(0 + 0)
+
+	参考答案的办法解决重复问题
+"""
+

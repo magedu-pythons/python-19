@@ -6,3 +6,13 @@ for i in range(len(a)):
         break
 else:
     print(0)
+
+
+
+
+"""
+(0 + 0)
+
+    第二题请参考答案，重新再做一遍
+"""
+

@@ -17,3 +17,14 @@ for i in lst:
 
 for k,v in dic.items():
     print(k,v)
+
+
+
+
+
+"""
+(0 + 0)
+
+    
+"""
+

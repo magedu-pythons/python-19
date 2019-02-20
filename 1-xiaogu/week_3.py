@@ -35,8 +35,12 @@ for m in range(200):
 	print(sequence)
 	sequence = ''
 
-	
 
 
+"""
+(0 + 0)
+
+    第二题会存在重复的优惠码，请参考答案实现
+"""
 	
 
