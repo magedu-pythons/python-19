@@ -1,0 +1,7 @@
+We'll explain the 4-wire version since that's the most complex. Normally if you want to measure a resistor you just connect your multimeter to each side of the resistor. The multimeter puts a small current through the resistor and measures the voltage generated across it (remember V = I * R). This works great for just about all resistors. However, for very precise readings of low-resistance resistors, you also have to account for the wires connected! For basic resistors, they are only good to 5% anyways so we don't mind the resistance of the wires.
+
+For RTDs, the wires, especially the 1 meter long ones, are 1, 2 maybe even 4次 of extra resistance! That can add up to half or even a full ～C! No good, we want to make sure that resistance is not included in our measurement
+
+Thus, the 4-wire RTD. Each side of the RTD has two wires attached. Each wire is maybe 1次 of resistance. When connected to the amplifier, the smart amp will measure the voltage across the RTD and also across the wire pairs.
+
+For example, here's the approximate resistances of a 4-Wire PT100 RTD at 0～C (for a PT1000, the middle resistance would be (1002次 rather than 102次)

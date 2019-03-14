@@ -23,7 +23,7 @@ while True :
 print(Lst)
 for i in range(len(Lst)):
     aset.add(Lst[])
-print(alst)
+print(aset)
 
 # 第二题  返回一种商品，概率和库存一样
 
@@ -34,14 +34,19 @@ def Goods():  # 生成1-库存总量total的随机数， 在对应的区间范�
     for v in Adict.values():
         total += v
 
-    i = random.randint(1, total)
+    i = random.randint(1, total+1)
     print(i)
     sum = 0
-    for k, v in Adict.items(): #通过遍历字典看，随机数是否在对应的商品区间，区间的大小等同于库存数，返回的几率与库存数量成正比
-        sum += v
-        if i < sum:
-            return k
+    key = list(Adict.keys())
+    print(key)
+    for k in key: #通过遍历字典看，随机数是否在对应的商品区间，区间的大小等同于库存数，返回的几率与库存数量成正比
+        sum += Adict[k]
+        if i <= sum:
+            break
+    print(k)
+    return k
 Goods()
+
 
 # 第三题   匿名函数
 print((lambda x,y :[{x[0]:y[0]},{x[1]:y[1]}])((('a'),('b')),(('c'),('d'))))
