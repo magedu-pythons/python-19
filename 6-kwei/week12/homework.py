@@ -41,10 +41,11 @@ print(p.absolute())
 
 def find_py(path, res=[]):
     for item in os.listdir(path):
-        if (path / item).is_dir():
-            find_py(path / item)
+        filename = path / item
+        if filename.is_dir():
+            find_py(filename)
         else:
-            if (path / item).suffix == '.py':
+            if (filename).suffix == '.py':
                 res.append(item)
     return res
 
