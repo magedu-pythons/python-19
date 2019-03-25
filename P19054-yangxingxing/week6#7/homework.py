@@ -25,6 +25,33 @@ def get_one():
     comm_list = [k for k, v in comm.items() for _ in range(math.ceil(v * 1000 / total))]
     return random.choice(comm_list)
 
+print(get_one())
+
+# 3、 现有两元祖 (('a'),('b')),(('c'),('d')) ,请使用Python中的匿名函数生成列表 [ {'a':'c'｝,{'b':'d'}]
+tuple1 = ('a', 'b')
+tuple2 = ('c', 'd')
+#list1 = [{x: y} for x, y in zip(tuple1, tuple2)]
+list1 = [{x: y} for x, y in map(lambda x: (tuple1[x], tuple2[x]), range(len(tuple1)))]
+
+print(list1)
+
+# 4、输入一个英文句子,翻转句子中的单词顺序,但单词内字符的顺序不变
+dd = "What's the most resilient parasite, one, two, three?"
+new_str = ''
+for i in reversed(dd.split()):
+    if i.endswith(','):
+        i = ',' + i[:-1]
+    elif i.endswith('!'):
+        i = '!' + i[:-1]
+    elif i.endswith('?'):
+        i = '?' + i[:-1]
+    elif i.endswith('.'):
+        i = '.' + i[:-1]
+    new_str = new_str + ' ' + i
+print(new_str)
+
+
+
 
 
 
