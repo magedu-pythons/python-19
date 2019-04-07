@@ -26,3 +26,12 @@ def check(st):
         if v > 1:
             return 'repetition'
     return 'No repetition'
+
+
+
+
+"""
+(0 + 0)
+
+    尽量不要用自带的模块解决，自行实现
+"""

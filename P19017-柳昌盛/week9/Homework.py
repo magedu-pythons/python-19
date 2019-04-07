@@ -21,3 +21,13 @@ def judge(array: list, num: int):
 
 lst = [1, 5, 2, 7, 4, 9]
 print(judge(lst, 11))
+
+
+
+
+
+"""
+(0 + 0)
+
+    第二题参考答案的解法
+"""

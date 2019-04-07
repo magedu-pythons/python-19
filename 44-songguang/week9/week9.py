@@ -30,3 +30,12 @@ def func(lst:list,n):
     return
 
 func(lst,11)
+
+
+
+
+"""
+(0 + 0)
+
+    函数的命名要符合规范，有意义
+"""

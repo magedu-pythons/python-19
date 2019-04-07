@@ -38,3 +38,11 @@ class Summ:
 sum1 = Summ()
 print(next(sum1.summation(lst, 10)))
 
+
+
+
+"""
+(0 + 0)
+
+    最后一题参考答案的快速方法
+"""

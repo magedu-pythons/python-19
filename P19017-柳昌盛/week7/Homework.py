@@ -37,3 +37,12 @@ def rev(strs):
 
 str1 = str(input('>>>'))
 print(rev(str1))
+
+
+
+
+"""
+(0 + 0)
+
+    第二题有错误，要按概率返回
+"""

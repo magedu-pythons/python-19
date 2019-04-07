@@ -27,3 +27,12 @@ def searcher(pathname:str):
 
 for i in searcher("C:\python-code\practice"):
     print(i)
+
+
+
+
+"""
+(0 + 0)
+
+    第二题尝试自行实现，不用模块
+"""

@@ -52,3 +52,13 @@ def find_py(path, res=[]):
 
 # test
 print(find_py(p))
+
+
+
+
+
+"""
+(0 + 0)
+
+    函数参数不要用list
+"""

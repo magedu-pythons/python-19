@@ -48,3 +48,12 @@ def packageiter(p1):
 
 p1 = Path('C:\Python\magedu_class\magedu')
 packageiter(p1)
+
+
+
+
+"""
+(0 + 0)
+
+    最后一提有错误，参考答案的解决办法
+"""

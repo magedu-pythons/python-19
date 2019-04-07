@@ -64,3 +64,11 @@ print(sentence("thisisanexample")) #this is an example
 print(sentence("itisanapple")) # is an
 
 #有点没太明白题意，应该是根据字典查找单词，然后拼接成句子
+
+
+
+"""
+(0 + 0)
+
+    不要用关键字作为函数参数，最后一题指的是分词，参考答案
+"""

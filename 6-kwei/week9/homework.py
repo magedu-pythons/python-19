@@ -47,3 +47,12 @@ def find_tar(lst:list,target:int):
 #test
 lst =[1,5,2,7,4,9]
 find_tar(lst,11)
+
+
+
+
+"""
+(0 + 0)
+
+    第二题参考答案有更快办法
+"""

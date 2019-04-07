@@ -56,3 +56,12 @@ def lengthoflongestsubstring(s):
         str_dict[s[i]] = i  # 把当前位置覆盖字典中的位置
         max_len = max(max_len, one_max)   # 比较此次循环的最大不重复子串长度和历史循环最大不重复子串长度
     return max_len
+
+
+
+
+"""
+(0 + 0)
+
+    第一题参考答案
+"""

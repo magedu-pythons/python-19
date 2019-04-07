@@ -57,3 +57,13 @@ def rever_order(sentence:str):
 
 
 print(rever_order(sentence))
+
+
+
+
+"""
+(0 + 0)
+
+    作业格式参考其他同学的格式
+    最后一题有错误，不能翻转单词的顺序
+"""

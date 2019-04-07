@@ -31,3 +31,11 @@ def judge_repeated(string: str):
 
 ss = "abcde"
 print(judge_repeated(ss))
+
+
+
+"""
+(0 + 0)
+
+    goood
+"""

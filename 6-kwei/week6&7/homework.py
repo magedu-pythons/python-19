@@ -66,3 +66,12 @@ def reverse_sentence( sample:str ):
 
 #test
 print( reverse_sentence( sample ) )
+
+
+
+"""
+(0 + 0)
+
+    
+    good!
+"""

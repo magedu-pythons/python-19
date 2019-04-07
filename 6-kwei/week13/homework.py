@@ -82,3 +82,12 @@ for i,_ in enumerate(string):
         print(string[offset:i+1])
 
 print(' '.join(res))
+
+
+
+
+"""
+(0 + 0)
+
+    最后2题参考答案
+"""

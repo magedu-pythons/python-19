@@ -15,3 +15,12 @@ def func(str1):
 func('abcdef')
 
 func('abbcd')
+
+
+
+
+"""
+(0 + 0)
+
+    参考答案的解法
+"""

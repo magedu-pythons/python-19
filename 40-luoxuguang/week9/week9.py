@@ -29,3 +29,12 @@ for i in range(n):
 # please input number>>11
 # success found two number:2 9
 # success found two number:7 4
+
+
+
+
+"""
+(0 + 0)
+
+    第二题参考答案更快实现
+"""

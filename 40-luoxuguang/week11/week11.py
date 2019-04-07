@@ -38,3 +38,12 @@ while True:
 # repeat string:
 # >>>
 # 结束判断
+
+
+
+
+"""
+(0 + 0)
+
+    good!
+"""
