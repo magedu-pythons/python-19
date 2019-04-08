@@ -14,7 +14,7 @@ def find_longest_consequence(array: list):
             while i in hashset:
                 i += 1
             max_num = max(max_num, i - j)
-
+            
     return max_num
 
 
