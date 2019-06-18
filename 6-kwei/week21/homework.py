@@ -8,7 +8,7 @@ class DoubleEndedQueue:
         self.tail = length // 2
 
     def insert_left(self, value):
-        if self.head == 0:
+        if self.head == -1:
             print('left is full')
             return
         self.body[self.head] = value
@@ -18,12 +18,12 @@ class DoubleEndedQueue:
         if self.head == self.length // 2 - 1:
             print('left is empty')
             return
-        res = self.body[self.head+1]
+        res = self.body[self.head + 1]
         self.head += 1
         return res
 
     def insert_right(self, value):
-        if self.tail == self.length - 1:
+        if self.tail == self.length:
             print('right is full')
             return
         self.body[self.tail] = value
@@ -33,14 +33,15 @@ class DoubleEndedQueue:
         if self.tail == self.length // 2:
             print('right is empty')
             return
-        res = self.body[self.tail-1]
+        res = self.body[self.tail - 1]
         self.tail -= 1
         return res
 
     def print_q(self):
-        print(self.body[self.head+1:(self.tail)])
+        print(self.body[self.head + 1:self.tail])
 
 
+# test
 d = DoubleEndedQueue()
 d.pop_left()
 d.pop_right()
