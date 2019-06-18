@@ -64,3 +64,24 @@ d.print_q()
 # 例如输入1，2，3，4，5，6，7 和8 这8 个数字，则最小的4 个数字为1，2，3 和4
 
 
+arr = [8, 2, 3, 4, 1, 6, 1]
+
+
+def find_last(arr, n):
+    lst = [0] * (max(arr) + 1)
+    for i in arr:
+        lst[i] += 1
+
+    count = 0
+    res = []
+    for i in range(len(lst)):
+        if lst[i] > 0:
+            res.extend([i]*lst[i])
+            count += lst[i]
+        if count >= n:
+            break
+    return res
+
+
+# test
+print(find_last(arr, 4))
