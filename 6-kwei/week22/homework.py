@@ -12,7 +12,7 @@ class PrintAlpha:
         self.event = threading.Event()
 
     def print_alpha(self):
-        while not over.is_set():
+        while True:
             if self.event.is_set():
                 print(self.alpha, end='')
                 self.event.clear()
