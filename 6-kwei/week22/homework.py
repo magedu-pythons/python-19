@@ -44,3 +44,17 @@ if __name__ == '__main__':
     main()
 
 # 2、输入一个字符串，求不含有重复字母的最长子串长度   
+def lengthOfLongestSubstring(s):
+    str_dict = {}
+    one_max = 0
+    start = 0
+    for i in range(len(s)):
+        if s[i] in str_dict and str_dict[s[i]] >= start:
+            start = str_dict[s[i]] + 1
+        one_max = i - start + 1
+        str_dict[s[i]] = i
+        max_len = max(max_len, one_max)
+    return max_len
+
+# test
+print(lengthOfLongestSubstring('pwwssffasdf'))
